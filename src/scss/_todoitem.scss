@@ -1,0 +1,37 @@
+.itemsedit {
+  display: flex;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+
+  & .btnStyle {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25%;
+    cursor: pointer;
+  }
+}
+
+.itemdate {
+  font-size: 15px;
+  color: grey;
+  margin-right: 20px;
+}
+
+@media (max-width: 700px) {
+  .itemsedit {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .itemsedit {
+    font-size: 16px;
+  }
+}

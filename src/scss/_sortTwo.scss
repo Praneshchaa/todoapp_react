@@ -1,0 +1,43 @@
+.formstyle {
+  display: flex;
+}
+
+.arrow {
+  background-size: contain;
+  height: 12px;
+  width: 31px;
+  margin-top: 44px;
+}
+
+.dropdown {
+  width: 5rem;
+  height: 25px;
+  margin-left: 500px;
+  display: inline-flex;
+  margin-top: 25px;
+}
+
+.dropdown-select {
+  display: flex;
+  padding: 2px;
+  width: 97px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select-two {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+
+.arrow-two {
+  margin-top: 6px;
+  margin-left: 30px;
+}
+
+.filter-text {
+  display: flex;
+  margin-top: 3px;
+  margin-left: -42px;
+}
